@@ -6,13 +6,11 @@
 ## Overview
 This guide will walk you through setting up the RFID-RC522 module with an LED on a Raspberry Pi. You'll learn how to enable the SPI interface, install necessary libraries, connect the hardware, and run a Python script to read RFID tags and control an LED.
 
-
-
 ## Connect the Hardware
 
 Connect the RFID RC522 module to the Raspberry Pi using the following pin connections:
 
-RFID RC522 Pin	           Raspberry Pi Pin	           Pin Number
+## RFID RC522 Pin	           Raspberry Pi Pin	           Pin Number
 VCC	                      3.3V	                          1
 GND                       GND                           	6
 SDA                       GPIO 8 (SPI0_CE0_N)	           24
