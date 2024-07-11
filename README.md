@@ -6,12 +6,6 @@
 ## Overview
 This guide will walk you through setting up the RFID-RC522 module with an LED on a Raspberry Pi. You'll learn how to enable the SPI interface, install necessary libraries, connect the hardware, and run a Python script to read RFID tags and control an LED.
 
-## Prerequisites
-- Raspberry Pi with Raspbian OS installed
-- RFID-RC522 module and tags 
-- LED and a 220Ω resistor
-- Jumper wires
-- Breadboard (optional)
 
 
 ## Connect the Hardware
@@ -27,6 +21,14 @@ MOSI	                     GPIO 10 (SPI0_MOSI)	           19
 MISO	                     GPIO 9 (SPI0_MISO)	            21
 IRQ	                      Not connected	                 --
 RST                       GPIO 25                        22
+
+
+## Prerequisites
+- Raspberry Pi with Raspbian OS installed
+- RFID-RC522 module and tags 
+- LED and a 220Ω resistor
+- Jumper wires
+- Breadboard (optional)
 
 ## Installation Required Libraries
    ```sh
