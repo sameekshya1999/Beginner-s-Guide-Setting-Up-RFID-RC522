@@ -43,8 +43,11 @@ pip install mfrc522
    sudo raspi-config
    ```
 -Navigate to Interface Options.
+
 -Select SPI and enable it.
+
 -Exit and reboot the Raspberry Pi:
+
 ```sh
   sudo reboot
 ```
