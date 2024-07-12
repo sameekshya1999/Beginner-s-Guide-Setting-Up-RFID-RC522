@@ -14,14 +14,16 @@ Connect the RFID RC522 module to the Raspberry Pi using the following pin connec
 
 | RFID RC522 Pin | Raspberry Pi Pin       | Pin Number |
 |----------------|------------------------|------------|
-| VCC            | 3.3V                   | 1          |
-| GND            | GND                    | 6          |
-| SDA            | GPIO 8 (SPI0_CE0_N)    | 24         |
-| SCK            | GPIO 11 (SPI0_SCLK)    | 23         |
-| MOSI           | GPIO 10 (SPI0_MOSI)    | 19         |
-| MISO           | GPIO 9 (SPI0_MISO)     | 21         |
+| SDA            | SPICE0                 | 24         |
+| SCK            | SPISCLK                | 23         |
+| MOSI           |SPIMOSI                 | 19         |
+| MISO           |SPIMISO                 | 21         |
 | IRQ            | Not connected          | --         |
+| GND            | GND                    | 6          |
 | RST            | GPIO 25                | 22         |
+| VCC            | 3.3V                   | 1          |
+
+
 
 
 ## Installation Required Libraries
