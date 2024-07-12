@@ -24,6 +24,11 @@ Connect the RFID RC522 module to the Raspberry Pi using the following pin connec
 | RST            | GPIO 25                | 22         |
 
 
+## Installation Required Libraries
+   ```sh
+pip install spidev
+pip install mfrc522
+```
 
 ## Prerequisites
 - Raspberry Pi with Raspbian OS installed
@@ -32,17 +37,14 @@ Connect the RFID RC522 module to the Raspberry Pi using the following pin connec
 - Jumper wires
 - Breadboard (optional)
 
-## Installation Required Libraries
-   ```sh
-pip install spidev
-pip install mfrc522
-
 ##  Enable SPI Interface
 1. Open a terminal and run the following command:
    ```sh
    sudo raspi-config
+   ```
 -Navigate to Interface Options.
 -Select SPI and enable it.
 -Exit and reboot the Raspberry Pi:
 ```sh
   sudo reboot
+```
